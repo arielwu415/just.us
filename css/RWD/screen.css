@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px){
+	body{
+		width: auto;
+	}
+
+	#above{
+		width: 768px;
+		background: cover;
+		height: auto;
+	}
+
+	h1{
+		font-size: 48px;
+		padding: 80px 0 0 45px; 
+	}
+
+	.site-nav{
+		width: 768px;
+		height: 36px;
+		margin: -40px 0 0 0;
+	}
+
+	.site-nav li{
+		margin: 10px 20px 0px 20px;
+	}
+
+
+	.container{
+		width: 768px;
+	}
+
+	.center{
+		width: 768px;
+	}
+
+
+	.screen{
+		margin: auto;
+	}
+
+	.clear{
+		clear: both;
+	}
+
+}

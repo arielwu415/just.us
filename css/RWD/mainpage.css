@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px){
+	
+	#intro, #second, #third, #fourth, #fifth, #sixth{
+		width: 768px;
+		margin-left: 0;
+	}
+
+	.story{
+		width: 768px;
+	/*	margin-left: 70px;*/
+	}
+
+	.title{
+		width: 768px;
+		margin-left: 70px;
+	}
+
+	div div div img{
+		margin-top: 100px;
+		margin-left: 70px;
+	}
+
+	div div div h1{
+		margin-left: 70px;
+	}
+
+	.float-right{
+		width: 370px;
+		margin-right: 90px;
+	}
+
+	.float-auto{
+		width: 280px;
+		margin: auto;
+	}
+
+	#centerbutton{
+		margin-left: 20px;
+	}
+
+	#centerbutton:hover{
+		margin-left: 20px;
+	}
+
+/*	h1{
+		font-size: 45px;
+	}
+*/
+	h2{
+		font-size: 30px;
+	}
+
+	h3{
+		font-size: 48px;
+	}
+
+/*	#logo{
+		width: 90px;
+	}
+*/
+
+}
