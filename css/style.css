@@ -295,6 +295,13 @@ li a{
 	float: left;
 }
 
+#footer p{
+	width: 306px;
+	margin: 30px auto 0 auto;
+	color: white;
+
+}
+
 
 /*a:-webkit-any-link {
     color: -webkit-link;
