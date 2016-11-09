@@ -21,8 +21,12 @@ li{
 	width: 112px;
 }
 
-.ptitle{
+.screen ul li{
 	cursor: pointer;
+}
+
+.ptitle ul{
+	display: none;
 }
 
 .ptitle:nth-children(1){
