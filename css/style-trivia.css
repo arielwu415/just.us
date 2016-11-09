@@ -10,3 +10,37 @@
 .container{
 	height: 750px;
 }
+
+.text-center{
+	width: 298px;
+}
+
+.line{
+	width: 36px;
+	border-bottom: 3px solid rgb(50, 55, 60);
+	float: auto;
+	margin: auto;
+	margin-top: 36px;
+}
+
+img{
+	width: 600px;
+	float: auto;
+	margin: 25px auto;
+	margin-left: 190px;
+}
+
+.hover {position:relative;}
+
+.hover img {
+  position: absolute;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover img:nth-of-type(2):hover{
+  opacity: 0; /*滑鼠滑入時，透明度變0*/
+}
