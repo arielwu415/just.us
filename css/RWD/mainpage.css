@@ -1,17 +1,87 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 814px){
+	body{
+		width: 814px;
+	}
 	
 	#intro, #second, #third, #fourth, #fifth, #sixth{
-		width: 768px;
+		width: 814px;
 		margin-left: 0;
 	}
 
+	#intro{
+		background: url(../../images/RWD/img_mainpic.jpg) 50% 0 no-repeat fixed;
+		background-size: cover;
+	}
+
+	.big-nav{
+		display: none;
+	}
+
+	.site-nav{
+		width: 100%;
+		display: none;
+		position: fixed;
+	}
+
+	.small-nav{
+		display: block;
+		width: 100%;
+		position: fixed;
+		margin: 0;
+		padding: 0;
+		height: 50px;
+		background-color: rgba(10, 10, 30, 0.5);
+	}
+
+	.small-nav ul{
+		margin: 0;
+		padding: 0;
+		display: none;
+		position: absolute;
+		top: 50px;
+		background-color: rgba(10, 10, 30, 0.5);
+	}
+
+	.small-nav li{ 
+		width: 100%;
+		list-style: none;
+		font-family: 'RaleWay', sans-serif;
+		color: white;
+		padding-bottom: 5px;
+		float: auto;
+		margin: 10px;
+	}
+
+	.small-nav a:hover{
+		font-family: 'RaleWay', sans-serif;
+		color: white;
+		border-bottom: 4px solid rgb(250, 250, 250);
+		padding-bottom: 3px;
+	}
+
+/*	.small-nav a{
+		text-decoration: none;
+		display: block;
+	}*/
+
+	span{
+		float: left;
+		font-size: 36px;
+		color: white;
+		margin: 0;
+		margin-right: 18px;
+		margin-left: 10px;
+		cursor: pointer;
+		position: fixed;
+	}
+
 	.story{
-		width: 768px;
+		width: 814px;
 	/*	margin-left: 70px;*/
 	}
 
 	.title{
-		width: 768px;
+		width: 814px;
 		margin-left: 70px;
 	}
 
@@ -25,13 +95,22 @@
 	}
 
 	.float-right{
+		float: left;
 		width: 370px;
-		margin-right: 90px;
+		margin-right: 0Spx;
 	}
 
 	.float-auto{
 		width: 280px;
 		margin: auto;
+	}
+
+	.title{
+		float: left;
+	}
+	
+	#photograph{
+		float: left;
 	}
 
 	#centerbutton{
@@ -54,9 +133,11 @@
 		font-size: 48px;
 	}
 
-/*	#logo{
-		width: 90px;
+	#logo{
+		padding-top: 120px;
 	}
-*/
 
+	#footer{
+		width: 814px;
+	}
 }

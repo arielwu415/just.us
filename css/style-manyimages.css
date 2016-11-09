@@ -1,0 +1,55 @@
+.line{
+	width: 36px;
+	border-bottom: 3px solid rgb(50, 55, 60);
+	float: auto;
+	margin: auto;
+	margin-top: 36px;
+	margin-bottom: 25px;
+}
+
+img{
+	width: 300px;
+}
+
+.column1{
+	width: 340px;
+	float: left;
+}
+
+.column2{
+	width: 340px;
+	float: left;
+}
+
+.column3{
+	width: 300px;
+	float: right;
+}
+
+.img1{
+	float: left;
+	width: 300px;
+	margin: 25px 40px 25px 0;
+}
+
+.img2{
+	float: left;
+	width: 300px;
+	margin: 25px 40px 25px 0;
+}
+
+.img3{
+	float: right;
+	width: 300px;
+	margin: 25px 0 25px 0;
+}
+
+.clear{
+	clear: both;
+}
+
+img:hover{
+	width: 310px;
+	margin: -5px;
+	-webkit-filter:drop-shadow(5px 5px 5px rgba(80, 90, 100, 0.3));
+}

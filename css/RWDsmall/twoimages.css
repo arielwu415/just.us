@@ -1,0 +1,65 @@
+@media screen and (max-width: 480px){
+	html{
+		width: 480px;
+		margin: 0;
+	}
+
+	img{
+		width: 339px;
+		clear: both;
+	}
+
+	.container{
+		width: 480px;
+		height: 930px;
+	}
+
+	/*.left{
+		width: 339px;
+		float: left;
+		margin-left: 30px;
+		margin-right: 15px;
+	}
+
+	.right{
+		width: 339px;
+		float: right;
+		margin-left: 15px;
+		margin-right: 30px;
+	}*/
+
+	.hover{
+		margin: 0;
+	}
+
+	.screen{
+		width: 480px;
+	}
+
+	.clear{
+		clear: both;
+	}
+
+	img{
+		width: 339px;
+		margin: 0;
+	}
+
+	.left{
+		float: none;
+		width: 339px;
+		height: 339px;
+		margin: 50px auto;
+	}
+
+	.right{
+		float: none;
+		width: 339px;
+		height: 339px;
+		margin: auto;
+	}
+
+	footer{
+		width: 480px;
+	}
+}

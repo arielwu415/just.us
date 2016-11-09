@@ -1,0 +1,101 @@
+@media screen and (max-width: 480px){
+	body{
+		width: 480px;
+	}
+
+	#intro, #second, #third, #fourth, #fifth, #sixth{
+		width: 480px;
+		margin-left: 0;
+	}
+
+	#intro{
+		background: url(../../images/RWDsmall/img_mainpic.jpg) 50% 0 no-repeat fixed;
+		background-size: cover;
+	}
+
+	ul{
+		display: none;
+	}
+
+	.site-nav{
+		height: 50px;
+	}
+
+	.small-nav{
+		display: block;
+	}
+
+	span{
+		float: right;
+		font-size: 36px;
+		color: white;
+		margin-right: 18px;
+		cursor: pointer;
+	}
+
+	.small-nav ul{
+		
+	}
+
+	.story{
+		width: 480px;
+	/*	margin-left: 70px;*/
+	}
+
+	.title{
+		width: 480px;
+		margin-left: 70px;
+	}
+
+	div div div img{
+		margin-top: 100px;
+		margin-left: 70px;
+	}
+
+	div div div h1{
+		margin-left: 70px;
+	}
+
+	.float-right{
+		float: left;
+		width: 370px;
+		margin-right: 90px;
+	}
+
+	.float-auto{
+		width: 280px;
+		margin: auto;
+	}
+
+	#photograph{
+		float: left;
+	}
+
+	#centerbutton{
+		margin-left: 20px;
+	}
+
+	#centerbutton:hover{
+		margin-left: 20px;
+	}
+
+/*	h1{
+		font-size: 45px;
+	}
+*/
+	h2{
+		font-size: 30px;
+	}
+
+	h3{
+		font-size: 48px;
+	}
+
+	#logo{
+		padding-top: 120px;
+	}
+
+	#footer{
+		width: 480px;
+	}
+}

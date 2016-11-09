@@ -5,15 +5,21 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html">
 	<title>JUST US.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<link rel="stylesheet" href="css/RWD/mainpage.css">
+	<link rel="stylesheet" href="css/RWDsmall/mainpage.css">
+	
+	<link rel="icon" type="image/png" href="./images/img_BlueLOGO.png">
 
-	<!--<script type="text/javascript" src="./js/roll/._jquery.parallax-1.1.3"></script>
-	<script type="text/javascript" src="./js/roll/jquery.localscroll-1.2.7-min"></script>
-	<script type="text/javascript" src="./js/roll/jquery.parallax-1.1.3"></script>
-	<script type="text/javascript" src="./js/roll/jquery.scrollTo-1.4.2-min"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/roll/._jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="js/roll/jquery.localscroll-1.2.7-min.js"></script>
+	<script type="text/javascript" src="js/roll/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="js/roll/jquery.scrollTo-1.4.2-min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			//$('#nav').localscroll-1(800);
+			/*$('#nav').localscroll(800);*/
 			$('#intro').parallax("50%", 0.1);
 			$('#second').parallax("50%", 0.1);
 			$('#third').parallax("50%", 0.1);
@@ -22,36 +28,37 @@
 			$('#sixth').parallax("50%", 0.1);
 			$('#footer').parallax("50%", 0.1);
 		})
-	</script>-->
-	<!--<script type="text/javascript" src="./js/jquery-3.1.1"></script>
-	<script type="text/javascript" src="./js/jquery.scrollTo"></script>
+	</script>
+	<script type="text/javascript" src="js/hamburger.js"></script>
+	
+<!--	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 	<script type="text/javascript">
-	$(function(){ 
+	$(document).ready(function(){ 
     	$(".HOME").click(function(){ 
-        	$().scrollTo(0, '#intro');
+        	$(window).scrollTo('#intro', 0, 500);
     	}); 
     	$(".ABOUTUS").click(function(){ 
-        	$().scrollTo(0, '#second'); 
+        	$(window).scrollTo('#second', 0, 800); 
     	}); 
     	$(".PHOTOGRAPH").click(function(){ 
-        	$().scrollTo(0, '#third'); 
+        	$(window).scrollTo('#third', 0, 1200); 
     	}); 
     	$(".ILLUSTRATION").click(function(){ 
-        	$().scrollTo(0, '#fourth'); 
+        	$(window).scrollTo('#fourth', 0, 1500); 
     	}); 
     	$(".PROSE").click(function(){ 
-        	$().scrollTo(0, '#fifth'); 
+        	$(window).scrollTo('#fifth', 0, 1800); 
     	});
     	$(".TRIVIA").click(function(){ 
-        	$().scrollTo(0, '#sixth'); 
+        	$(window).scrollTo('#sixth', 0, 2100); 
     	}); 
 	}); 
 	</script>-->
 
 </head>
 <body>
-
 	 	<nav class="site-nav">
+	 		<div class="big-nav">
 			<ul class="clear" id="nav">
 				<li><a href="#sixth" class="TRIVIA">TRIVIA</a></li>
 				<li><a href="#fifth" class="PROSE">PROSE</a></li>
@@ -60,11 +67,21 @@
 				<li><a href="#second" class="ABOUTUS">ABOUT US</a></li>
 				<li><a href="#intro" class="HOME">HOME</a></li>
 			</ul>
-
+			</div>	
 		</nav>
+			<div class="small-nav">
+			<span class="alt-nav">&#9776</span>
+				<ul>
+					<li><a href="#intro" class="HOME">HOME</a></li>
+					<li><a href="#second" class="ABOUTUS">ABOUT US</a></li>
+					<li><a href="#third" class="PHOTOGRAPH">PHOTOGRAPH</a></li>
+					<li><a href="#fourth" class="ILLUSTRATION">ILLUSTRATION</a></li>
+					<li><a href="#fifth" class="PROSE">PROSE</a></li>
+					<li><a href="#sixth" class="TRIVIA">TRIVIA</a></li>
+				</ul>
+			</div>
 		
 		<a name="intro"><div id="intro" style="background-position: 50% 0px;">
-			<!--<img src="./images/img_mainpic.jpg" />-->
 			<div class="story">
 				<div class="float-left">
 					<img src="./images/img_LOGO.png" id="logo" />
@@ -86,7 +103,7 @@
 		</a>
 		<a name="third"><div id="third" style="background-position: 50% 0px;">
 			<div class="title">
-				<div class="float-right">
+				<div class="float-left">
 						<h3 id="photgraph">PHOTOGRAPH</h3>
 						<a href="./Photography.html" class="click">
 							<div id="broken"><p>LEARN MORE >></p></div>

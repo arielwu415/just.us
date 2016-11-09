@@ -1,0 +1,57 @@
+@font-face{
+	font-family: 'cwTeX';
+	src: url('../fonts/cwTeXFangSong-zhonly.ttf');
+}
+
+@font-face{
+	font-family: 'cwTeXHei';
+	src: url('../fonts/cwTeXHei-zhonly.ttf');
+}
+
+li{
+	list-style: none;
+	font-family: 'cwTeX', serif;
+}
+
+.container{
+	height: auto;
+}
+
+.text-center{
+	width: 112px;
+}
+
+.ptitle{
+	cursor: pointer;
+}
+
+.ptitle:nth-children(1){
+/*	width: 試標題寬度*/
+}
+
+.ptitle:nth-children(2){
+/*	width: 試標題寬度*/
+}
+
+.ptitle:nth-children(3){
+/*	width: 試標題寬度*/
+}
+
+
+.ptitle:nth-children(4){
+/*	width: 試標題寬度*/
+}
+
+
+.ptitle:nth-children(5){
+/*	width: 試標題寬度*/
+}
+
+
+.ptitle:nth-children(6){
+/*	width: 試標題寬度*/
+}
+
+.ptitle:nth-children(7){
+/*	width: 試標題寬度*/
+}
