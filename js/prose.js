@@ -2,13 +2,13 @@ $(document).ready(function(){
 	$(".ptitle").click(function(){
 		if ( $(this).hasClass("active-click")){
 			$(this).removeClass("active-click");
-			$(".ptitle > ul").slideUp();
+			$(".ptitle > p").slideUp();
 		}
 		else {
-			$(".ptitle > ul").slideUp();
+			$(".ptitle > p").slideUp();
 			$(this).removeClass("active-click");
 			$(this).addClass("active-click");
-			$(".ptitle > ul").slideDown();
+			$(".ptitle > p").slideDown();
 			return false;
 		}
 	});
