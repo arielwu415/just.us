@@ -18,44 +18,46 @@ li{
 }
 
 .text-center{
-	width: 112px;
+	width: 150px;
+}
+
+.screen{
+	width: 500px;
+	margin: auto;
 }
 
 .screen ul li{
 	cursor: pointer;
 }
 
-.ptitle ul{
+.screen ul{
+	margin: 0;
+	padding: 0;
+}
+
+.ptitle p{
 	display: none;
+	margin: auto;
+	font-size: 20px;
 }
 
-.ptitle:nth-children(1){
-/*	width: 試標題寬度*/
+h2{
+	font-family: 'cwTeX';
 }
 
-.ptitle:nth-children(2){
-/*	width: 試標題寬度*/
+h3{
+	color: rgb(50, 55, 60);
 }
 
-.ptitle:nth-children(3){
-/*	width: 試標題寬度*/
+#ball{
+	float: auto;
+	width: 160px;
+	margin: auto;
+	font-size: 28px;
 }
-
-
-.ptitle:nth-children(4){
-/*	width: 試標題寬度*/
-}
-
-
-.ptitle:nth-children(5){
-/*	width: 試標題寬度*/
-}
-
-
-.ptitle:nth-children(6){
-/*	width: 試標題寬度*/
-}
-
-.ptitle:nth-children(7){
-/*	width: 試標題寬度*/
+#edu{
+	float: auto;
+	width: 104px;
+	margin: auto;
+	font-size: 28px;
 }
