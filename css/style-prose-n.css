@@ -1,0 +1,101 @@
+@font-face{
+	font-family: 'cwTeX';
+	src: url('../fonts/cwTeXFangSong-zhonly.ttf');
+}
+
+@font-face{
+	font-family: 'cwTeXHei';
+	src: url('../fonts/cwTeXHei-zhonly.ttf');
+}
+
+li{
+	list-style: none;
+	font-family: 'cwTeX', serif;
+}
+
+.container{
+	height: auto;
+}
+
+.text-center{
+	width: 135px;
+}
+
+.screen{
+	width: 650px;
+	margin: auto;
+}
+
+.screen ul li{
+	cursor: pointer;
+}
+
+.screen ul{
+	margin: 0;
+	padding: 0;
+}
+
+.ptitle p{
+	display: none;
+	margin: auto;
+	font-size: 20px;
+}
+
+h2{
+	font-family: 'cwTeX';
+}
+
+h3{
+	color: rgb(50, 55, 60);
+}
+
+#lin{
+	float: auto;
+	width: 104px;
+	margin: auto;
+	font-size: 28px;
+}
+
+#kamo{
+	float: auto;
+	width: 70px;
+	margin: auto;
+	font-size: 28px;
+}
+
+#traitor{
+	float: auto;
+	width: 52px;
+	margin: auto;
+	font-size: 28px;
+}
+
+#lose{
+	float: auto;
+	width: 52px;
+	margin: auto;
+	font-size: 28px;
+}
+
+
+#bully{
+	float: auto;
+	width: 52px;
+	margin: auto;
+	font-size: 28px;
+}
+
+
+#over{
+	float: auto;
+	width: 52px;
+	margin: auto;
+	font-size: 28px;
+}
+
+#white{
+	float: auto;
+	width: 104px;
+	margin: auto;
+	font-size: 28px;
+}
